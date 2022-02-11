@@ -1,7 +1,7 @@
 {
-  "name": "nestjs-package-starter",
-  "version": "1.1.2",
-  "description": "NestJS npm package starter",
+  "name": "@tresdoce/nestjs-archetype",
+  "version": "0.0.1",
+  "description": "Module for archetype control",
   "author": {
     "name": "Maximiliano \"Mex\" Delgado",
     "email": "mdelgado@tresdoce.com.ar",
