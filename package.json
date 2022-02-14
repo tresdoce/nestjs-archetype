@@ -1,6 +1,6 @@
 {
   "name": "@tresdoce/nestjs-archetype",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Module for archetype control",
   "author": {
     "name": "Maximiliano \"Mex\" Delgado",
