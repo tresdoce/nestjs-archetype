@@ -51,7 +51,7 @@ npm install @tresdoce/nestjs-archetype
 
 ## ⚙️ Configuración
 
-Para excluir el paths `/manifest` hay que ajustar el `setGlobalPrefix` agregando el options exclude que exporta la dependencia.
+Para excluir el path `/manifest` hay que ajustar el `setGlobalPrefix` agregando el options exclude que exporta la dependencia.
 
 ```typescript
 // .src/main.ts
