@@ -13,18 +13,17 @@
   },
   "keywords": [
     "nestjs",
-    "package",
-    "starter"
+    "archetype"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rudemex/nestjs-package-starter.git"
+    "url": "git+https://github.com/tresdoce/nestjs-archetype.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rudemex/nestjs-package-starter/issues"
+    "url": "https://github.com/tresdoce/nestjs-archetype/issues"
   },
-  "homepage": "https://github.com/rudemex/nestjs-package-starter#readme",
+  "homepage": "https://github.com/tresdoce/nestjs-archetype#readme",
   "scripts": {
     "prebuild": "shx rm -rf pkg",
     "build": "pika build",

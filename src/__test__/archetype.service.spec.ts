@@ -5,9 +5,9 @@ import { ArchetypeService } from '../archetype/services/archetype.service';
 
 const mockManifest = {
   archetypeVersion: '0.0.1',
-  name: 'starter-nestjs',
+  name: 'nestjs-starter',
   version: '1.0.0',
-  description: 'Arquetipo Node (NestJs)',
+  description: 'NestJS Starter - Server',
   author: {
     name: 'Maximiliano "Mex" Delgado',
     email: 'mdelgado@tresdoce.com.ar',
@@ -15,14 +15,13 @@ const mockManifest = {
   },
   repository: {
     type: 'git',
-    url: 'git+https://github.com/rudemex/nestjs-package-starter.git',
+    url: 'git+https://github.com/rudemex/nestjs-starter.git',
   },
-  homepage: 'https://github.com/rudemex/nestjs-package-starter#readme',
+  homepage: 'https://github.com/rudemex/nestjs-starter#readme',
   dependencies: {
-    '@tresdoce/archetype': './tresdoce-archetype-0.0.1.tgz',
-    '@tresdoce/filters': '0.0.2',
-    '@tresdoce/health': '0.0.3',
-    '@tresdoce/response-parser': '0.0.2',
+    '@tresdoce/nestjs-archetype': './tresdoce-archetype-0.0.1.tgz',
+    '@tresdoce/nestjs-health': '0.0.5',
+    '@tresdoce/nestjs-httpclient': '0.1.2',
     '@nestjs/class-transformer': '^0.4.0',
     '@nestjs/class-validator': '^0.13.3',
     '@nestjs/common': '^8.2.5',
@@ -34,7 +33,7 @@ const mockManifest = {
     'swagger-ui-express': '^4.3.0',
   },
   devDependencies: {
-    '@tresdoce/commons': '0.0.2',
+    '@tresdoce/nestjs-commons': '0.0.2',
     '@nestjs/cli': '^8.2.0',
     '@nestjs/schematics': '^8.0.4',
     '@nestjs/testing': '^8.2.5',
@@ -109,10 +108,9 @@ describe('ArchetypeService', () => {
       repository: mockManifest.repository,
       homepage: mockManifest.homepage,
       dependencies: {
-        '@tresdoce/archetype': './tresdoce-archetype-0.0.1.tgz',
-        '@tresdoce/filters': '0.0.2',
-        '@tresdoce/health': '0.0.3',
-        '@tresdoce/response-parser': '0.0.2',
+        '@tresdoce/nestjs-archetype': './tresdoce-archetype-0.0.1.tgz',
+        '@tresdoce/nestjs-health': '0.0.5',
+        '@tresdoce/nestjs-httpclient': '0.1.2',
         '@nestjs/class-transformer': '^0.4.0',
         '@nestjs/class-validator': '^0.13.3',
         '@nestjs/common': '^8.2.5',
@@ -122,7 +120,7 @@ describe('ArchetypeService', () => {
         '@nestjs/swagger': '^5.1.5',
       },
       devDependencies: {
-        '@tresdoce/commons': '0.0.2',
+        '@tresdoce/nestjs-commons': '0.0.2',
         '@nestjs/cli': '^8.2.0',
         '@nestjs/schematics': '^8.0.4',
         '@nestjs/testing': '^8.2.5',

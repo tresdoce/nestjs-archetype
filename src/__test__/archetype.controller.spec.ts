@@ -4,24 +4,23 @@ import { ArchetypeService } from '../archetype/services/archetype.service';
 
 const mockManifest = {
   archetypeVersion: '0.0.1',
-  name: 'galicia-starter-nestjs',
+  name: 'nestjs-starter',
   version: '1.0.0',
-  description: 'Galicia Starter | Arquetipo Node (NestJs)',
+  description: 'NestJS Starter - Server',
   author: {
-    name: 'Arquitectura | Developer Experience',
-    email: 'arquitectura-dx@bancogalicia.com.ar',
-    url: 'https://github.bancogalicia.com.ar/ardx-crossbgba',
+    name: 'Maximiliano "Mex" Delgado',
+    email: 'mdelgado@tresdoce.com.ar',
+    url: 'https://rudemex.github.io/',
   },
   repository: {
     type: 'git',
-    url: 'git+https://github.bancogalicia.com.ar/ardx-crossbgba/galicia-starter-nestjs.git',
+    url: 'git+https://github.com/rudemex/nestjs-starter.git',
   },
-  homepage: 'https://github.bancogalicia.com.ar/ardx-crossbgba/galicia-starter-nestjs#readme',
+  homepage: 'https://github.com/rudemex/nestjs-starter#readme',
   dependencies: {
-    '@galicia-toolkit-nestjs/archetype': './galicia-toolkit-nestjs-archetype-0.0.1.tgz',
-    '@galicia-toolkit-nestjs/filters': '0.0.2',
-    '@galicia-toolkit-nestjs/health': '0.0.3',
-    '@galicia-toolkit-nestjs/response-parser': '0.0.2',
+    '@tresdoce/nestjs-archetype': './tresdoce-archetype-0.0.1.tgz',
+    '@tresdoce/nestjs-health': '0.0.5',
+    '@tresdoce/nestjs-httpclient': '0.1.2',
     '@nestjs/class-transformer': '^0.4.0',
     '@nestjs/class-validator': '^0.13.3',
     '@nestjs/common': '^8.2.5',
@@ -33,7 +32,7 @@ const mockManifest = {
     'swagger-ui-express': '^4.3.0',
   },
   devDependencies: {
-    '@galicia-toolkit-nestjs/commons': '0.0.2',
+    '@tresdoce/nestjs-commons': '0.0.2',
     '@nestjs/cli': '^8.2.0',
     '@nestjs/schematics': '^8.0.4',
     '@nestjs/testing': '^8.2.5',

@@ -1,5 +1,5 @@
 {
-  "header": "<div align=\"center\"><h1>📝 CHANGELOG</h1><p>All changes of this package will be documented in this file.</p></div>\n\n---\n",
+  "header": "<div align=\"center\"><h1>📝 Changelog</h1><p>All changes of this package will be documented in this file.</p></div>\n\n---\n",
   "path": "./",
   "releaseCommitMessageFormat": "ci(release): bumped version to {{currentTag}}",
   "types": [
@@ -15,10 +15,10 @@
     {"type": "ci", "hidden": true},
     {"type": "revert", "hidden": true}
   ],
-  "commitUrlFormat": "https://github.com/rudemex/nestjs-package-starter/commit/{{hash}}",
-  "compareUrlFormat": "https://github.com/rudemex/nestjs-package-starter/compare/{{previousTag}}...{{currentTag}}",
+  "commitUrlFormat": "https://github.com/tresdoce/nestjs-archetype/commit/{{hash}}",
+  "compareUrlFormat": "https://github.com/tresdoce/nestjs-archetype/compare/{{previousTag}}...{{currentTag}}",
   "issuePrefixes": ["#"],
-  "issueUrlFormat": "https://github.com/rudemex/nestjs-package-starter/issues/{{id}}",
+  "issueUrlFormat": "https://github.com/tresdoce/nestjs-archetype/issues/{{id}}",
   "issuePrefixes": ["#"],
   "skip": {
     "bump": false,
